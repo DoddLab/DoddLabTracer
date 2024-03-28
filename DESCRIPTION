@@ -1,0 +1,36 @@
+Package: DoddLabTracer
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.7
+Author: c(
+    person(given = "Zhiwei",
+           family = "Zhou",
+           role = c("aut", "cre"),
+           email = "zhouzw@stanford.edu",
+           comment = c(ORCID = "0000-0002-1249-6870"))
+           )
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    crayon,
+    data.table,
+    dplyr,
+    ggplot2,
+    ggrepel,
+    knitr,
+    magrittr,
+    MassToolsMjhelf,
+    pbapply,
+    RaMS,
+    Rdisop,
+    readr,
+    readxl,
+    tidyr,
+    writexl
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
