@@ -26,6 +26,7 @@ Imports:
     MassToolsMjhelf,
     pbapply,
     RaMS,
+    rcdk,
     Rdisop,
     readr,
     readxl,

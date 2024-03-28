@@ -32,6 +32,10 @@ devtools::install_github("ZhuMetLab/SpectraTools")
 devtools::install_github("DoddLab/DoddLabTracer")
 ```
 
+
+## Demo data
+The demo data can be download [here](https://github.com/DoddLab/DoddLabTracer_DemoData)
+
  
 ## Example
 This is a basic example of HyuA mutants:
