@@ -66,7 +66,8 @@ find_intemidates(peak_table_unlabel = 'hyuA_UA_48h_area.txt',
 
 ```
 
-## Expected output
+## Expected run time and output
+- The run time is ~5 minutes for 1000 features.
 - A directory named as "00_tracer_result" will be generated in the working directory.
 ![](https://raw.githubusercontent.com/JustinZZW/blogImg/main/202407120715734.png)
 
