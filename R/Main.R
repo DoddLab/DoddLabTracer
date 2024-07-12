@@ -990,5 +990,10 @@ v0.1.6
 o Fix bug: self_check_isf
 o Adjust ppc calculation (5 points needed)
 o Adjust the formula prediction threshold (ppm: 10 -> 15)
+
+v0.1.7
+-------------
+o Add README.md
+o Commit and submit to GitHub
 ")
 }
