@@ -1,7 +1,7 @@
 # DoddLabTracer
 - Author: Zhiwei Zhou (zhouzw@stanford.edu)
 - Created: 03/27/2024
-- Last modified: 03/27/2024
+- Last modified: 07/12/2024
 
 ## Introduction
 This workflow is designed to extract the altered metabolite features pairs between unlabeled medium and stable isotope tracer labeled medium.
@@ -36,6 +36,13 @@ devtools::install_github("DoddLab/DoddLabTracer")
 ## Demo data
 The demo data can be download [here](https://github.com/DoddLab/DoddLabTracer_DemoData)
 
+It needs several files:
+
+- Unlabelded peak area matrix (hyuA_UA_48h_area.txt, exported from MS-Dial)
+- Labeled peak area matrix (hyuA_13CUA_48h_area.txt, exported from MS-Dial)
+- Unlabelded mzml files (Directory: hyuA_UA)
+- Labeled mzml files (Directory: hyuA_13CUA)
+- poolQC ms2 files (Directory: ms2)
  
 ## Example
 This is a basic example of HyuA mutants:
@@ -59,8 +66,9 @@ find_intemidates(peak_table_unlabel = 'hyuA_UA_48h_area.txt',
 
 ```
 
-
-
+## Expected output
+- A directory named as "00_tracer_result" will be generated in the working directory.
+![](https://raw.githubusercontent.com/JustinZZW/blogImg/main/202407120715734.png)
 
 ## License
 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> 
